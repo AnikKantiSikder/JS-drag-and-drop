@@ -11,36 +11,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
-    <title>Background slider</title>
+    <title>Drag and drop</title>
 </head>
 <body>
     
-   <div class="slider-container">
-       <div class="slide active"
-       style="background-image: url('img/1.jpg');"></div>
-
-       <div class="slide"
-       style="background-image: url('img/2.jpg');"></div>
-
-       <div class="slide"
-       style="background-image: url('img/3.jpg');"></div>
-
-       <div class="slide"
-       style="background-image: url('img/4.jpg');"></div>
-
-       <div class="slide"
-       style="background-image: url('img/5.jpg');"></div>
-
-       <!-- Button -->
-       <button class="arrow left-arrow" id="left">
-           <i class="fas fa-arrow-left"></i>
-       </button>
-
-       <button class="arrow right-arrow" id="right">
-        <i class="fas fa-arrow-right"></i>
-       </button>
-       
-   </div>
+    <div class="empty">
+        <div class="fill" draggable="true"></div>
+    </div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
   
 
     <script src="script.js"></script>
